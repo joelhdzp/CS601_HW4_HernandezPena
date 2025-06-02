@@ -73,7 +73,7 @@ This project's live repository may be found on GitHub at:
 
 - **Type Predicate**: `isSnowyCountry()` safely filters only SnowyCountry instances.
 - **Type Assertion**: `(country as SnowyCountry)` used to access the `snowLevel` property.
-- **Dynamic DOM manipulation**: All outputs, <h2> and <p> elements, are generated from `app.ts`.
+- **Dynamic DOM manipulation**: All outputs, `<h2>` and `<p>` elements, are generated from `app.ts`.
 - **Optional Styling**: A `style.css` file was added for better visual output and hover interactions.
 - **Modular Code**: Uses clear function breakdowns `showCountries()` and `showAnnualSnow()` for filtering, displaying, and summarizing.
 
