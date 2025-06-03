@@ -1,0 +1,50 @@
+/**
+ * MET CS601 - Assignment 4
+ * Created by Joel Hernandez Pena
+*/
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+div h2 {
+  font-size: 35px;
+  font-style: oblique; /* Changes subtitle font-style */
+}
+
+div p {
+  margin: 5px;
+  padding: 0;
+  font-size: 20px;
+}
+
+/* Hover effect applied to text */
+div p:hover {
+  display: table;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #690096;
+  outline: 2px outset lightpink;
+  transform: scale(1.01);
+}
+
+/* Styling <p id="snow-level"> element */
+#snow-level {
+  margin: 5px;
+  margin-top: 1.5rem;
+  font-size: 20px;
+}
+
+#snow-level:hover {
+  display: table;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #e47a1ec3;
+  outline: 2px outset lightgreen;
+  transform: scale(1.01);
+}
