@@ -11,20 +11,23 @@ It demonstrates the use of **interfaces**, **classes**, **type assertions**, **t
 ## 📁 Project Structure
 
 ```
-/country-app
+/CS601_HW4_HernandezPena
 │
-├── public/
-│   ├── index.html        # Main HTML entry point
-│   ├── style.css         # Optional: CSS for styling (not required by assignment)
-│   └── app.js            # Compiled JavaScript from TypeScript
+├── country-app/
+│   │
+│   ├── public/
+│   │   ├── index.html        # Main HTML entry point
+│   │   ├── style.css         # Optional: CSS for styling (not required by assignment)
+│   │   └── app.js            # Compiled JavaScript from TypeScript
+│   │
+│   ├── src/
+│   │   └── app.ts            # Main TypeScript logic and implementation
+│   │
+│   ├── package.json          # Project metadata and TypeScript dependency
+│   ├── package-lock.json     # Dependency tree for reproducibility
+│   └── tsconfig.json         # TypeScript configuration
 │
-├── src/
-│   └── app.ts            # Main TypeScript logic and implementation
-│
-├── package.json          # Project metadata and TypeScript dependency
-├── package-lock.json     # Dependency tree for reproducibility
-├── tsconfig.json         # TypeScript configuration
-└── README.md             # Project documentation
+└── README.md                 # Project documentation
 ```
 
 ---
