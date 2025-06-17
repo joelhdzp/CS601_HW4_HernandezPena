@@ -1,0 +1,14 @@
+{
+  "name": "country-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joel Hernandez Pena",
+  "license": "ISC",
+  "description": "CS601 - Assignment 4",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
